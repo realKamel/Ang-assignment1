@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --main-color: #1abc9c;
+  --second-color: #2c3e50;
+}
+
+.flex-center-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

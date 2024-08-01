@@ -1,0 +1,18 @@
+footer {
+  background-color: var(--second-color);
+}
+.icon {
+  border: 1px white solid;
+  padding: 10px;
+  border-radius: 50%;
+}
+section
+{
+  text-align: center;
+  background-color: #1a252f;
+  padding: 10px;
+}
+section p {
+
+  padding-top:10px;
+}
