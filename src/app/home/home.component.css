@@ -1,0 +1,16 @@
+section {
+  background-color: var(--main-color);
+  height: 100dvh;
+}
+section img {
+  width: 250px;
+}
+section div span {
+  color: white;
+}
+section div .line {
+  background-color: white;
+  display: block;
+  height: 4px;
+  width: 80px;
+}

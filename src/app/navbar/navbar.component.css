@@ -1,5 +1,9 @@
-nav
-{
+nav {
   background-color: var(--second-color);
   transition: all 0.6s;
+}
+.active {
+  background-color: var(--main-color);
+  transition: all 0.6s;
+
 }

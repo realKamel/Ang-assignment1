@@ -1,0 +1,19 @@
+.contact .container {
+  height: 100dvh;
+}
+.contact .container h2 {
+  color: var(--second-color);
+}
+.lines span {
+  color: var(--second-color);
+}
+.lines .line {
+  background-color: var(--second-color);
+  display: block;
+  height: 4px;
+  width: 80px;
+}
+.form button{
+  background-color: var(--main-color);
+  color:white
+}

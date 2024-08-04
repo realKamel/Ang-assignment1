@@ -1,0 +1,16 @@
+.about {
+  background-color: var(--main-color);
+}
+.about .container
+{
+  height: 100dvh;
+}
+.lines span {
+  color: white;
+}
+section div .line {
+  background-color: white;
+  display: block;
+  height: 4px;
+  width: 80px;
+}

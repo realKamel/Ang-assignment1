@@ -1,0 +1,33 @@
+<div class="portfolio pt-4 mt-5">
+  <div class="container mx-auto">
+    <div class="row h-100 justify-content-center align-items-center">
+      <div class="content p-3">
+        <h2 class="text-center text-uppercase fw-bolder fs-1 mb-2">portfolio section</h2>
+        <div class="lines flex-center-center mb-3">
+
+          <span class="line me-3"></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span class="line ms-3"></span>
+
+        </div>
+        <div class="row justify-content-center align-items-center g-5">
+          @for (product of products; track $index) {
+          <div class="col-md-6 col-lg-4">
+            <div class="my-card rounded-3">
+              <img [src]="product.ref" class="w-100 rounded-3" alt="nothing">
+              <div class="inner-layer flex-center-center rounded-3">
+                <i class="fa-solid fa-plus fa-6x text-white"></i>
+              </div>
+            </div>
+          </div>
+          }
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
