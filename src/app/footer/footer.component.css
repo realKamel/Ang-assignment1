@@ -1,18 +1,27 @@
-footer {
-  background-color: var(--second-color);
+footer , .card{
+  background-color: var(--second-color) !important;
 }
+
 .icon {
   border: 1px white solid;
   padding: 10px;
   border-radius: 50%;
+  cursor: pointer;
 }
-section
+
+.icon:hover {
+  background-color: white;
+}
+.icon:hover i {
+  color:var(--second-color)
+}
+.end-footer
 {
   text-align: center;
   background-color: #1a252f;
   padding: 10px;
 }
-section p {
+.end-footer p {
 
   padding-top:10px;
 }

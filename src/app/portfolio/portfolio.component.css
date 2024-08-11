@@ -1,29 +1,36 @@
-.portfolio .container {
-  height: 100dvh;
+.portfolio{
+  position: relative;
 }
 .portfolio .container h2 {
   color: var(--second-color);
+  margin-top: 50px;
+}
+.top-layer
+{
+  z-index: 3000 !important;
+
 }
 .lines span {
   color: var(--second-color);
 }
+
 .lines .line {
   background-color: var(--second-color);
   display: block;
   height: 4px;
   width: 80px;
 }
-.my-card
-{
+
+.my-card {
   position: relative;
+  cursor: pointer;
 }
 
-.my-card:hover .inner-layer
-{
+.my-card:hover .inner-layer {
   opacity: 0.9;
 }
 
-.my-card .inner-layer{
+.my-card .inner-layer {
   position: absolute;
   inset: 0;
   opacity: 0;
